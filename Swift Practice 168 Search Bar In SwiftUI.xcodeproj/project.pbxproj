@@ -11,6 +11,8 @@
 		2DC2CEC12889112300FD144F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC2CEC02889112300FD144F /* ContentView.swift */; };
 		2DC2CEC32889112500FD144F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC2CEC22889112500FD144F /* Assets.xcassets */; };
 		2DC2CEC62889112500FD144F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC2CEC52889112500FD144F /* Preview Assets.xcassets */; };
+		2DC2CECD2889113D00FD144F /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC2CECC2889113D00FD144F /* SearchViewModel.swift */; };
+		2DC2CECF288911B500FD144F /* NameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC2CECE288911B500FD144F /* NameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2DC2CEC02889112300FD144F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DC2CEC22889112500FD144F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DC2CEC52889112500FD144F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DC2CECC2889113D00FD144F /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		2DC2CECE288911B500FD144F /* NameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				2DC2CEBE2889112300FD144F /* Swift_Practice_168_Search_Bar_In_SwiftUIApp.swift */,
 				2DC2CEC02889112300FD144F /* ContentView.swift */,
+				2DC2CECE288911B500FD144F /* NameModel.swift */,
+				2DC2CECC2889113D00FD144F /* SearchViewModel.swift */,
 				2DC2CEC22889112500FD144F /* Assets.xcassets */,
 				2DC2CEC42889112500FD144F /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC2CECF288911B500FD144F /* NameModel.swift in Sources */,
+				2DC2CECD2889113D00FD144F /* SearchViewModel.swift in Sources */,
 				2DC2CEC12889112300FD144F /* ContentView.swift in Sources */,
 				2DC2CEBF2889112300FD144F /* Swift_Practice_168_Search_Bar_In_SwiftUIApp.swift in Sources */,
 			);
